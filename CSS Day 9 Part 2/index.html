@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Day 9 Part 2</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>CSS Day 9: Overflow, Z-Index & Shimmer UI</h1>
+
+    <!-- PART 1: OVERFLOW -->
+    <section>
+      <h2>1. CSS Overflow</h2>
+      <div class="demo-grid">
+        <div class="demo-card">
+          <h3>overflow: visible</h3>
+          <div class="overflow-box overflow-visible">
+            This text is meant to spill out of the container because overflow is set to visible.
+          </div>
+        </div>
+
+        <div class="demo-card">
+          <h3>overflow: hidden</h3>
+          <div class="overflow-box overflow-hidden">
+            This text gets clipped cleanly at the edge of the container boundary.
+          </div>
+        </div>
+
+        <div class="demo-card">
+          <h3>overflow: auto</h3>
+          <div class="overflow-box overflow-auto">
+            <p>Line 1: Scrollbars appear only when content exceeds height.</p>
+            <p>Line 2: Extra content line.</p>
+            <p>Line 3: Extra content line.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PART 2: Z-INDEX -->
+    <section>
+      <h2>2. Z-Index & Stacking</h2>
+      <div class="demo-grid">
+        <div class="demo-card">
+          <h3>Overlapping Elements</h3>
+          <div class="stack-wrapper">
+            <div class="stack-card card-red">z-index: 1</div>
+            <div class="stack-card card-blue">z-index: 2</div>
+            <div class="stack-card card-green">z-index: 3</div>
+          </div>
+        </div>
+
+        <div class="demo-card">
+          <h3>Tooltip Placement</h3>
+          <p style="font-size: 0.875rem; color: #64748b;">Hover/Observe the floating card above the button:</p>
+          <div class="tooltip-wrapper">
+            <button class="tooltip-btn">Hover Button</button>
+            <div class="tooltip-text">Tooltip (z-index: 10)</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PART 3: SHIMMER UI EFFECT -->
+    <section>
+      <h2>3. Modern Shimmer UI (Skeleton Loader)</h2>
+      <p style="margin-bottom: 16px; color: #64748b; font-size: 0.9rem;">
+        Combines <code>position: relative</code>, <code>overflow: hidden</code>, and <code>::before</code> keyframe animations:
+      </p>
+      
+      <div class="shimmer-container">
+        <!-- Card 1 -->
+        <div class="shimmer-card">
+          <div class="shimmer-img"></div>
+          <div class="shimmer-title"></div>
+          <div class="shimmer-text"></div>
+          <div class="shimmer-text"></div>
+          <div class="shimmer-text short"></div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="shimmer-card">
+          <div class="shimmer-img"></div>
+          <div class="shimmer-title"></div>
+          <div class="shimmer-text"></div>
+          <div class="shimmer-text short"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+    
+</body>
+</html>

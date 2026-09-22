@@ -1,0 +1,451 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f9;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+hr {
+  margin: 40px 0;
+}
+
+.photo-frame {
+  width: 200px;
+  padding: 20px;
+  border: 5px solid brown;
+  margin: 30px;
+  background-color: #fff;
+}
+
+.small-box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+}
+
+.medium-box {
+  width: 200px;
+  height: 150px;
+  background-color: lightgreen;
+}
+
+.large-box {
+  width: 300px;
+  height: 200px;
+  background-color: lightcoral;
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+.solid-border {
+  border: 3px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.dashed-border {
+  border: 3px dashed black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.dotted-border {
+  border: 3px dotted black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.double-border {
+  border: 5px double black;
+  padding: 10px;
+}
+
+.rounded-box {
+  width: 200px;
+  height: 100px;
+  background-color: lightgray;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: plum;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.pill {
+  width: 150px;
+  height: 50px;
+  background-color: pink;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.profile-card {
+  width: 200px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  background-color: gray;
+  border-radius: 50%;
+  border: 3px solid black;
+  margin: 0 auto 10px auto;
+}
+
+.btn-small {
+  padding: 5px 10px;
+  border: 1px solid black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn-large {
+  padding: 15px 30px;
+  border: 2px solid black;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.no-padding {
+  width: 300px;
+  background-color: white;
+  border: 2px solid black;
+  padding: 0;
+}
+
+.with-padding {
+  width: 300px;
+  background-color: white;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.nav-link {
+  padding: 10px 20px;
+  border: 1px solid black;
+  background-color: lightgray;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  border: 1px solid blue;
+  margin-bottom: 30px;
+}
+
+.centered-box {
+  width: 300px;
+  height: 150px;
+  background-color: lightyellow;
+  border: 3px solid orange;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-container {
+  display: flex;
+}
+
+.grid-card {
+  width: 150px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+  margin: 15px;
+  padding: 10px;
+}
+
+.method-1 {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  background-color: #e0e0e0;
+}
+
+.method-2 {
+  padding: 10px 20px 30px 40px;
+  background-color: #d0d0d0;
+}
+
+.box-1 {
+  width: 200px;
+  height: 100px;
+  background-color: lightpink;
+  margin: 20px 50px;
+}
+
+.box-2 {
+  width: 200px;
+  height: 100px;
+  background-color: lightgreen;
+  margin: 10px 20px 30px 40px;
+}
+
+.post-card {
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: white;
+}
+
+.post-card .user-avatar {
+  width: 50px;
+  height: 50px;
+  background-color: #777;
+  border-radius: 50%;
+  border: 2px solid #333;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.post-card .username {
+  margin: 5px 0;
+  padding: 0;
+}
+
+.post-card .post-content {
+  padding: 15px 0;
+  margin: 10px 0;
+}
+
+.post-card .like-btn {
+  padding: 8px 20px;
+  border: 1px solid #007bff;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.pricing-card {
+  width: 300px;
+  border: 3px solid #007bff;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 20px 0;
+  background-color: white;
+  text-align: center;
+}
+
+.pricing-card .plan-name {
+  margin: 0 0 20px 0;
+  padding: 10px;
+  border-bottom: 2px solid #eee;
+}
+
+.pricing-card .price {
+  padding: 20px;
+  margin: 20px 0;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.pricing-card .features {
+  padding: 0;
+  margin: 20px 0;
+  list-style-type: none;
+}
+
+.pricing-card .subscribe-btn {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.alert-success {
+  padding: 15px 20px;
+  margin: 10px 0;
+  border-left: 5px solid green;
+  border-radius: 5px;
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.alert-warning {
+  padding: 15px 20px;
+  margin: 10px 0;
+  border-left: 5px solid orange;
+  border-radius: 5px;
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.alert-error {
+  padding: 15px 20px;
+  margin: 10px 0;
+  border-left: 5px solid red;
+  border-radius: 5px;
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.badge-container {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.badge {
+  padding: 5px 15px;
+  margin: 5px;
+  border: 2px solid gray;
+  border-radius: 20px;
+  background-color: #e2e2e2;
+  display: inline-block;
+}
+
+.badge-new {
+  border: 2px solid green;
+  background-color: #d4edda;
+  color: green;
+}
+
+.badge-sale {
+  border: 2px solid red;
+  background-color: #f8d7da;
+  color: red;
+}
+
+.gallery-card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 20px 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.gallery-card .image-placeholder {
+  width: 100%;
+  height: 200px;
+  background-color: #aaa;
+  color: white;
+  text-align: center;
+  line-height: 200px;
+  margin: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.gallery-card .card-body {
+  padding: 20px;
+  margin: 0;
+}
+
+.gallery-card .card-body h3 {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.gallery-card .card-body p {
+  margin: 0;
+  padding: 0;
+}
+
+.challenge-btn {
+  padding: 10px 25px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.challenge-card {
+  width: 350px;
+  height: 400px;
+  padding: 25px;
+  border: 1px solid gray;
+  border-radius: 12px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.challenge-box {
+  width: 200px;
+  height: 100px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.ch-box-1 {
+  border: 2px solid red;
+}
+
+.ch-box-2 {
+  border: 2px solid blue;
+}
+
+.ch-box-3 {
+  border: 2px solid green;
+}
+
+.challenge-profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid white;
+  background-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.challenge-notif-badge {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  padding: 2px;
+  margin: 10px;
+  text-align: center;
+  line-height: 26px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.ch6-box {
+  margin: 10px 20px 30px 200px;
+  background-color: #eaeaea;
+}
+
+.ch6-container {
+  padding: 15px;
+  background-color: #dae8fc;
+}
+

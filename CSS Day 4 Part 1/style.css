@@ -1,0 +1,144 @@
+/* p {
+    color: red;
+}
+.text {
+       color: blue;
+}
+#special {
+    color: green;
+} */
+ /* p {
+    color: grey;
+
+ }
+ .highlight {
+    color: yellow;
+ }
+ #special {
+    color: purple;
+ }
+ .container p {
+    color: blue;
+ } */
+  /* a {
+    color: grey;
+  }
+  .active {
+    color: whitesmoke;
+    background-color: orangered;
+  }
+  nav a{
+    color: blue;
+  } */
+/* button{
+    background: blue;
+}
+#danger {
+    background: red;
+} */
+ /* .photo-frame {
+    width: 100px;
+    padding: 20px;
+    border: 5px solid brown;
+    margin: 30px;
+ }
+ .small-box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+ }
+ .medium-box {
+    width: 200px;
+    height: 150px;
+    background-color: lightcoral;
+ }
+ .large-box {
+    width: 300px;
+    height: 200px;
+    background-color: lightgreen;
+ } */
+  /* .card {
+    width: 25opx;
+    height: 300px;
+    background-color: white;
+  }
+  .solid-border {
+    border: 3px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .dashed-border {
+    border: 3px dashed blue;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .dotted-border {
+    border: 3px dotted red;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .double-border {
+border: 5px double green;
+padding: 10px;
+  }
+.rounded-box {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    border: 2px solid darkblue;
+    border-radius: 15px;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border: 3px solid darkred;
+    border-radius: 50%;
+}
+.pill {
+width: 150px;
+height: 50px;
+background-color: green;
+border: 2px solid darkgreen;
+border-radius: 25px;
+} */
+/* 
+    .exercise-1 .text { color: red; }
+    .exercise-1 #special { color: green; }
+
+  
+    .exercise-3 button { background-color: red; color: white; }
+    .exercise-3 button { background-color: blue; color: white; }
+
+    
+    .exercise-4 .container .box p { color: red; }
+    .exercise-4 #wrapper p { color: blue; }
+    .exercise-4 .container #special { color: green; }
+
+  
+    .exercise-6 button { background-color: red; color: white; }
+    .exercise-6 .submit-btn { background-color: green; } 
+
+    
+    .exercise-7 #content p { color: red; }
+    .exercise-7 #content p.text { color: blue; }
+
+  
+    .exercise-8 div { background-color: blue; color: white; padding: 10px; }
+    .exercise-8 .box { background-color: red; color: white; padding: 10px; }
+
+    
+    .exercise-9 p { color: black; }
+    .exercise-9 .alert { color: red; }
+    .exercise-9 .warning { color: orange; }
+    .exercise-9 .alert.warning { color: gold; }
+
+    
+    .exercise-10 p { color: gray; }
+    .exercise-10 .highlight { color: yellow; }
+    .exercise-10 #special-10 { color: purple; }
+    .exercise-10 .container p { color: blue; }
+    .exercise-10 .container .highlight { color: yellow; }
+ */
+
+ 

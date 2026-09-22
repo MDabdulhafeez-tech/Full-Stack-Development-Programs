@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Day 9 Part 1</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <section>
+    <h2>Part 1: CSS Overflow</h2>
+    <div class="demo-group">
+      <div class="box visible">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </div>
+
+      <div class="box clipped">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </div>
+
+      <div class="scrollable">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Part 2: Z-Index & Overlapping</h2>
+    <div class="zindex-container">
+      <div class="card red">Red (z: 1)</div>
+      <div class="card blue">Blue (z: 2)</div>
+      <div class="card green">Green (z: 3)</div>
+    </div>
+
+    <div class="tooltip-wrapper">
+      <button class="btn">Hover or Target</button>
+      <div class="tooltip">Tooltip Text (z: 10)</div>
+    </div>
+
+    <div class="overlay"></div>
+    <div class="modal">Modal Content (z: 101)</div>
+  </section>
+
+  <section>
+    <h2>Part 3: Shimmer UI</h2>
+    <div class="shimmer-wrapper">
+      <div class="shimmer-card">
+        <div class="shimmer-img"></div>
+        <div class="shimmer-title"></div>
+        <div class="shimmer-text"></div>
+        <div class="shimmer-text"></div>
+        <div class="shimmer-text short"></div>
+      </div>
+
+      <div class="shimmer-card">
+        <div class="shimmer-img"></div>
+        <div class="shimmer-title"></div>
+        <div class="shimmer-text"></div>
+        <div class="shimmer-text short"></div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

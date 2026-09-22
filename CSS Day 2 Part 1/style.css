@@ -1,0 +1,352 @@
+/* h1 {
+ text-align: center;
+}
+
+.date {
+ text-align: right;
+}
+
+p {
+ text-align: left;
+} */
+
+/* hero-title {
+ text-align: center;
+}
+.hero-subtitle {
+ text-align: center;
+} */
+
+/* blog-title {
+ text-align: center;
+}
+.blog-content {
+ text-align: justify;
+ font-size: 17px;
+}
+.author-info {
+ text-align: right;
+} */
+
+/* 
+nav a {
+ font-weight: 500;
+}
+nav a:hover {
+ font-weight: 700;
+} */
+
+/* h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 400;
+}
+
+.caption {
+  font-weight: 300;
+} */
+
+/* price-amount {
+ font-weight: 900;
+}
+.price-currency {
+ font-weight: 600;
+}
+.price-description {
+ font-weight: 400;
+} */
+
+/* a {
+ text-decoration: none;
+ color: blue;
+}
+a:hover {
+ text-decoration: underline;
+}
+a:visited {
+ text-decoration: none;
+ color: purple;
+} */
+
+/* .original-price {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.sale-price {
+  text-decoration: none;
+  color: red;
+  font-weight: 700;
+} */
+
+/* .task {
+ text-decoration: none;
+}
+.task.completed {
+ text-decoration: line-through;
+ color: gray;
+} */
+
+/* .error-text {
+  text-decoration: red wavy underline;
+}
+
+.warning-text {
+  text-decoration: orange double underline;
+}
+
+.success-text {
+  text-decoration: green underline;
+} */
+
+/* body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+}
+
+.poem {
+  font-size: 18px;
+  line-height: 2.5;
+}
+
+blockquote {
+  font-size: 20px;
+  line-height: 1.8;
+  font-style: italic;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.hero-title {
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.brand-logo {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.compact-text {
+  font-size: 14px;
+  letter-spacing: -0.3px;
+} */
+
+/* .hero {
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: 1px;
+}
+
+.hero-subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+.article-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: left;
+  letter-spacing: -0.5px;
+}
+
+.article-meta {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.article-body {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8;
+  text-align: left;
+  letter-spacing: normal;
+}
+
+.pricing-card {
+  text-align: center;
+}
+
+.plan-name {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.price {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 2px;
+}
+
+.price-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.old-price {
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: line-through;
+  color: gray;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+blockquote {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.8;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.quote-author {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+} */
+
+/* body {
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.3px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.lead {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+small {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.center-text {
+  text-align: center;
+} */
+
+

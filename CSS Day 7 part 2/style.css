@@ -1,0 +1,193 @@
+/* Exercise 1: Multi-Row Gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  height: 500px;
+}
+.gallery .photo {
+  width: 200px;
+  height: 150px;
+}
+
+/* Exercise 2: Navigation with Special Button */
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+.navbar .login-btn {
+  align-self: flex-start;
+}
+
+/* Exercise 3: Responsive Dashboard */
+.dashboard {
+  display: flex;
+}
+.dashboard .sidebar {
+  flex: 0 0 200px;
+}
+.dashboard .content {
+  flex: 1 1 500px;
+}
+.dashboard .widgets {
+  flex: 0 1 250px;
+}
+
+/* Exercise 4: Card Layout with Featured Item */
+.cards {
+  display: flex;
+}
+.cards .card {
+  flex: 1 0 150px;
+}
+.cards .card.featured {
+  flex: 2 0 150px;
+}
+
+/* Exercise 5: Toolbar with Priority Items */
+.toolbar {
+  display: flex;
+}
+.toolbar .btn {
+  flex: 0 1 120px;
+}
+.toolbar .icon {
+  flex: 0 0 40px;
+}
+
+/* Exercise 6: Pricing Table */
+.pricing {
+  display: flex;
+  align-items: center;
+}
+.pricing .plan {
+  flex: 1 0 250px;
+}
+.pricing .plan.popular {
+  flex: 1.5 0 250px;
+  align-self: flex-start;
+}
+
+/* Exercise 7: Form Layout */
+.form-row {
+  display: flex;
+}
+.form-row .label {
+  flex: 0 0 100px;
+}
+.form-row .input {
+  flex: 1 1 200px;
+  min-width: 150px;
+}
+.form-row .btn {
+  flex: 0 0 100px;
+}
+
+/* Exercise 8: Multi-Row Tag List */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  height: 300px;
+}
+
+/* Exercise 9: Magazine Layout */
+.magazine {
+  display: flex;
+  flex-wrap: wrap;
+}
+.magazine .image.large {
+  flex: 3 0 400px;
+}
+.magazine .image.small {
+  flex: 1 0 150px;
+}
+
+/* Exercise 10: App Bar with Dynamic Spacing */
+.app-bar {
+  display: flex;
+  align-items: center;
+}
+.app-bar .icon-btn {
+  flex: 0 0 50px;
+}
+.app-bar .title {
+  flex: 1 1 200px;
+  align-self: flex-end;
+}
+
+/* Challenge 1: Complex Dashboard */
+.challenge-dashboard {
+  display: flex;
+  align-items: stretch;
+}
+.challenge-dashboard .sidebar {
+  flex: 0 0 250px;
+}
+.challenge-dashboard .main-content {
+  flex: 1 1 auto;
+}
+.challenge-dashboard .right-panel {
+  flex: 0 1 300px;
+  min-width: 200px;
+}
+
+/* Challenge 2: Responsive Navigation */
+.challenge-navbar {
+  display: flex;
+}
+.challenge-navbar .logo {
+  flex: 0 0 150px;
+}
+.challenge-navbar .menu-item {
+  flex: 1 1 auto;
+}
+.challenge-navbar .search-bar {
+  flex: 2 1 200px;
+}
+.challenge-navbar .action-btn {
+  flex: 0 0 100px;
+}
+
+/* Challenge 3: Grid-Like Flex Layout */
+.challenge-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  width: 1000px;
+  height: 800px;
+}
+.challenge-grid .column {
+  flex: 1 1 300px;
+}
+
+/* Challenge 4: Dynamic Form */
+.challenge-form {
+  display: flex;
+}
+.challenge-form .label {
+  flex: 0 0 150px;
+}
+.challenge-form .input {
+  flex: 1 1 auto;
+}
+.challenge-form .btn {
+  flex: 0 0 120px;
+}
+
+/* Challenge 5: Mixed Media Gallery */
+.challenge-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.challenge-gallery .item-200 {
+  flex: 1 0 200px;
+}
+.challenge-gallery .item-300 {
+  flex: 1 0 300px;
+}
+.challenge-gallery .item-400 {
+  flex: 1 0 400px;
+}

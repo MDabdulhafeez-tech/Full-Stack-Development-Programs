@@ -1,0 +1,108 @@
+/* input[type="text"] {
+  border: 2px solid blue;
+  padding: 8px;
+}
+
+input[type="password"] {
+  border: 2px solid red;
+  padding: 8px;
+}
+
+input[type="checkbox"]:checked {
+  accent-color: green;
+}
+
+a[href="https://example.com"] {
+  color: purple;
+  font-weight: bold;
+}
+
+a[href^="https://"] {
+  text-decoration: underline;
+}
+
+button:hover {
+  background-color: darkblue;
+  color: white;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border: 2px solid green;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+p.highlight:hover {
+  background-color: yellow;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+input[type="checkbox"]:checked + label {
+  color: green;
+  font-weight: bold;
+}
+
+li:nth-of-type(even) {
+  background-color: #f2f2f2;
+}
+
+li:nth-of-type(odd) {
+  background-color: #ffffff;
+}
+
+li:nth-of-type(3) {
+  color: red;
+  font-weight: bold;
+}
+
+.container p:first-of-type {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+p:first-of-type {
+  margin-top: 10px;
+}
+
+li:last-of-type {
+  border-bottom: 2px solid #ccc;
+}
+
+.story::first-letter {
+  font-size: 48px;
+  font-weight: bold;
+  color: purple;
+  float: left;
+  line-height: 0.8;
+  margin-right: 5px;
+}
+
+.story::selection {
+  background-color: cyan;
+  color: black;
+}
+
+.story::-moz-selection {
+  background-color: cyan;
+  color: black;
+}
+
+.story::first-line {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.card h2::before {
+  content: "★ ";
+  color: gold;
+} */
